@@ -92,8 +92,8 @@ app.use ( (req, res, next) => {
 
 
 // ************ Set the server to listen ************
-app.listen(3001, () => {
-    console.log('Server running on port 3001', 'http://localhost:3001');
+app.listen(3007, () => {
+    console.log('Server running on port 3007', 'http://localhost:3007');
 });
 
 

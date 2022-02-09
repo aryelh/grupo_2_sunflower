@@ -26,7 +26,7 @@ main{
 h2{
     padding-top: 20px;
     text-align: center;
-    font-size: 1.17em;
+    font-size: 24px;
 }
 /*LINEA BAJO EL TEXTO*/
 hr{
@@ -41,6 +41,7 @@ hr{
     margin: auto;
     font-weight: 600;
     border-radius: 5px;
+    box-shadow: rgb(100, 100, 100) 0px 0px 10px;
 }
 /*ETIQUETA FORM CONTENEDOR DE TODO EL FORMULARIO*/
 form{
@@ -123,10 +124,15 @@ form{
     width: 90%;
     height: 45px;
     padding: 10px;
-    border: solid 1px #B0B3AF;
+    border: solid 3px var(--grisOscuro);
     margin-bottom: 10px;
     background-color: #F8F4F4;
-    border-radius: 3px;
+    border-radius: 8px;
+}
+.cajaCategory select{
+    border:solid 3px var(--grisOscuro);
+    background-color: #F8F4F4;
+    border-radius: 8px;
 }
 /*CONTENEDOR DESCRIPCION DEL PRODUCTO*/
 .cajaDescription{
@@ -140,9 +146,11 @@ form{
     font-weight: 600;
     height: 70px;
     margin-bottom: 10px;
-    border: solid 1px #B0B3AF;
+    border:solid 3px var(--grisOscuro);
     background-color: #F8F4F4;
+    border-radius: 8px;
 }
+
 /*SEPARACION ENTRE EL LABEL Y EL FORMULARIO*/
 form label{
     padding-bottom: 5px;
@@ -218,7 +226,7 @@ form label{
     position: relative;
     width: 100px;
     background-color: #EDAFA4;
-    border-radius: 3px;
+    border-radius: 8px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;

@@ -294,7 +294,7 @@ main{
     color: var(--blanco);
     font-weight: 500;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 .vaciar{
@@ -309,7 +309,7 @@ main{
     color: var(--rosa);
     font-weight: 800;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
     border: solid 1px var(--rosa);
 }
 
@@ -325,7 +325,7 @@ main{
     color: var(--rosa);
     font-weight: 800;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
     border: solid 1px var(--rosa);
 }
 

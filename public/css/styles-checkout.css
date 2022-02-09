@@ -138,7 +138,7 @@ main{
     height: 50px;
     border: 0;
     border-radius: 5px;
-    border: solid 2px #ebebeb;
+    border: solid 3px var(--grisOscuro);
     font-weight: 700;
 }
 
@@ -339,7 +339,7 @@ main{
     color: var(--blanco);
     font-weight: 500;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
 }
 
 .regresar{
@@ -354,7 +354,7 @@ main{
     color: var(--blanco);
     font-weight: 500;
     cursor: pointer;
-    border-radius: 3px;
+    border-radius: 8px;
     /* border: solid 1px var(--blanco); */
 }
 
