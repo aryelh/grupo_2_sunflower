@@ -195,7 +195,7 @@ BARRA ENTRE EL HEADER Y EL MAIN
     color: white;
     font-size: 9px;/*esto*/
     font-weight: 700;
-    background: #edafa4;
+    background: var(--grisOscuroSombra);
     padding: 10px 10px;
 }
 
